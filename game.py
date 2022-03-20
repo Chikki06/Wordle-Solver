@@ -16,7 +16,7 @@ user_input = input(">")
 game_over = False
 
 while not game_over:
-    print('which postion of letters(seprated by space) were in the correct spot(enter 0 if none)')
+    print('which postion of letters(seprated by space) use _ to indicate an empty space were in the correct spot(enter 0 if none)')
     correct_spots = input(">")
     list_of_correct_spots = correct_spots.split(' ')
 
